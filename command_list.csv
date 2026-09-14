@@ -1,16 +1,16 @@
- 1050  git add .
- 1051  git commit -m "Add .gitignore and ignore text_ignore.txt"
- 1052  touch main_test.txt
- 1053  git add .
- 1054  git commit -m "Add main_test.txt"
- 1055  git checkout -b develop
- 1056  touch develop_test.txt
- 1057  git add .
- 1058  git commit -m "Add develop_test.txt"
- 1059  echo "some changes" >> develop_test.txt
- 1060  git status
- 1061  git add .
- 1062  git commit -m "Update develop_test.txt"
- 1063  git checkout main
- 1064  git merge develop
- 1065  git log --oneline
+ 1076  echo "text_ignore.txt" >> .gitignore
+ 1077  git add .
+ 1078  git commit -m "Add .gitignore and ignore text_ignore.txt"
+ 1079  touch main_test.txt
+ 1080  git add .
+ 1081  git commit -m "Add main_test.txt"
+ 1082  git checkout -b develop
+ 1083  touch develop_test.txt
+ 1084  git add .
+ 1085  git commit -m "Add develop_test.txt"
+ 1086  echo "some changes" >> develop_test.txt
+ 1087  git status
+ 1088  git add .
+ 1089  git commit -m "Update develop_test.txt"
+ 1090  git checkout main
+ 1091  git merge develop
